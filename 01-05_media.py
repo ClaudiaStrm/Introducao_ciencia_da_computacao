@@ -1,0 +1,11 @@
+#Faça um programa em Python que receba quatro notas, calcule e imprima a média aritmética.
+
+
+a = int(input("Digite a primeira nota: "))
+b = int(input("Digite a segunda nota: "))
+c = int(input("Digite a terceira nota: "))
+d = int(input("Digite a quarta nota: "))
+
+media = (a + b + c + d) / 4
+
+print("A média aritmética é %.1f" %media)
